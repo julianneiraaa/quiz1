@@ -29,11 +29,11 @@ public class Persona
 	   
 	   {
 	        System.out.println("SOLUCIONARIO");
-	        System.out.println("1. ¿Cual es la diferencia entre una clase `Persona` y una clase `Empleado` en términos de atributos y métodos?");
-	        System.out.println("La diferencia es que en la clase Empleado se tienen dos atributos adicionales que hereda de persona, en cuanto a metodos es lo mismo, Empleado hereda metodos adicionales para manejar la información adicional relacionada con el empleo" + ".");
+	        System.out.println("1. ¿Cual es la diferencia entre una clase `Persona` y una clase `Main` en términos de atributos y métodos?");
+	        System.out.println("La diferencia es que en la clase Main se tienen dos atributos adicionales que hereda de persona, en cuanto a metodos es lo mismo, Main hereda metodos adicionales para manejar la información adicional relacionada con el empleo" + ".");
 	        
 	        
-	        System.out.println("2. ¿Como se establece la relación de herencia entre `Empleado` y `Persona` en Java?");
+	        System.out.println("2. ¿Como se establece la relación de herencia entre `Main` y `Persona` en Java?");
 	        System.out.println("Se establece con la palabra Extends después de crear la clase.");
 	        
 	        

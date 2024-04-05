@@ -1,13 +1,13 @@
 package Trabajo;
 
-public class Empleado extends Persona
+public class Main extends Persona
 {
 	private Double salario;
 	private String cargo;
 	
 	
 	
-	public Empleado(String nombre, int edad, Double salario, String cargo) 
+	public Main(String nombre, int edad, Double salario, String cargo) 
 	{
 		super(nombre, edad);
 		this.salario = salario;

@@ -2,7 +2,7 @@ package Trabajo;
 
 import java.util.Scanner;
 
-public class Menu 
+public class SuperHero 
 {
 	
 	public static void main(String[] args) 
@@ -32,10 +32,10 @@ public class Menu
         System.out.println("Ingrese el salario del empleado:");
         double salarioEmpleado = scanner.nextDouble();
         
-        Empleado empleado = new Empleado(nombreEmpleado, edadEmpleado, salarioEmpleado, cargoEmpleado);
+        Main main = new Main(nombreEmpleado, edadEmpleado, salarioEmpleado, cargoEmpleado);
         
         System.out.println("\nInformacion del empleado:");
-        empleado.MostrarInformacion();
+        main.MostrarInformacion();
         
         
         System.out.println("\nPreguntas QUIZ:");
